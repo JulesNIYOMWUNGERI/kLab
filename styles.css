@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(61, 95, 232) 0%,
+        rgb(61, 95, 232) 50%,
+        aliceblue 50%,
+        aliceblue 100%
+    );
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:rgba(255, 255, 255, 0.941) ;
+    width: 80%;
+    height: 85%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form {
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subInfo {
+    background-color: rgb(61, 95, 232);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.sm {
+    background-color: #ffffffad;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sn {
+    background-color: white;
+    width: 230px;
+    height: 160px;
+    border-radius: 10px;
+
+  
+    
+}
+
+.strong {
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big {
+    background-color: transparent;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.semi {
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.now {
+    background-image: linear-gradient(160deg, rgb(240, 240, 240), rgb(255, 255, 255), rgb(255, 255, 255), rgb(236, 236, 236));
+    height: 50px;
+    width: 95px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid rgb(248, 237, 237);
+}
+
+.smallnow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(116, 0, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.smallnow1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seminow {
+    gap: 5px;
+}
+
+.param {
+    font-size: xx-small;
+}
+
+.para {
+    font-size: small;
+    font-weight: 600;
+}
+
+.tsemi {
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.prev {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.littel1 {
+    font-size: xx-small;
+    background-color: rgba(148, 0, 211, 0.488);
+    width: 25px;
+    height: 15px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkviolet;
+}
+
+.littel2 {
+    font-size: xx-small;
+    background-color: rgba(172, 255, 47, 0.468);
+    width: 25px;
+    height: 15px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+
+.littel3 {
+    font-size: xx-small;
+    background-color: rgba(216, 112, 147, 0.568);
+    width: 35px;
+    height: 15px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: palevioletred;
+}
+
+.circle {
+    background-image: linear-gradient(160deg, green, yellow, blue, red);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.semicircle {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+
+.strong {
+    margin-top: 10px;
+    margin-left: 15px; 
+}
+
+.subform {
+    width: 50%;
+    height: 90%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.minform {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 10px;
+}
+
+.sub {
+    display:flex;
+    flex-direction: column;
+}
+
+.input {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 10px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.button {
+    background-color: rgb(61, 95, 232);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: azure;
+}
+
+.words {
+    font-size: 10px;
+}
+
+.min{
+    font-size: 12px;
+}
+
+.class {
+    color: rgb(61, 95, 232);
+}
+
+.paragraphy {
+    position: absolute;
+    bottom: 30px;
+}
+
+.navs {
+    width: 280px;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navs2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.bar {
+    background-color: rgb(209, 209, 209);
+    width: 80px;
+    height: 5px;
+    border-radius: 30px;
+}
+
+.bar1 {
+    background-color: rgb(61, 95, 232);
+    width: 80px;
+    height: 5px;
+    border-radius: 30px;
+}
+
+.navigation {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-weight: bold;
+    color: darkviolet;
+    font-size: xx-large;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
